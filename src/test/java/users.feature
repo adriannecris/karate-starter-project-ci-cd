@@ -7,4 +7,4 @@ Feature: test
       Given path 'api/users'
       And param page = 2
       When method get
-      Then match response.page == 2
+      Then match response.page == 3
